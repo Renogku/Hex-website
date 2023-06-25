@@ -1,8 +1,7 @@
 //custome color
 $primary: #00C802;
 $secondary: #041E29;
-$dark: #000;
-
+$dark: #13131a;
 
 @import "../node_modules/bootstrap/scss/_functions"; 
 @import "../node_modules/bootstrap/scss/_variables";
@@ -11,10 +10,16 @@ $custom-theme-colors: (
    "bluelagoon": #006D88,
    "bondiblue":#0099B1,
    "pacificblue":#00AEC0,
-   "conifer":#85D74F
+   "conifer":#85D74F,
+   "purple":#BB33FF
  );
 
  $theme-colors: map-merge($custom-theme-colors, $theme-colors) ;
+
+ $box-shadow:                  0 .5rem 1rem rgba($purple, .15);
+ $box-shadow-sm:               0 .125rem .25rem rgba($purple, .075);
+ $box-shadow-lg:               0 0rem 4rem rgba($purple, .350);
+ $box-shadow-inset:            inset 0 1px 2px rgba($white, .075);
 
 //import bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
