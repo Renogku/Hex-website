@@ -14,16 +14,16 @@
 	<!-- Plugins CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
 	<link rel="stylesheet" type="text/css" href="assets/vendor/themify-icons/css/themify-icons.css" />
-	<!-- <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.min.css" /> -->
-	<!-- <link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.css"> -->
 	<link rel="stylesheet" type="text/css" href="assets/vendor/tiny-slider/tiny-slider.css">
 	<link rel="stylesheet" type="text/css" href="assets/vendor/aos/aos.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/hippo/hippo.css">
 
 	<!-- Theme CSS -->
 	<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css" /> -->
 	<link rel="stylesheet" type="text/css" href="css/style.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/main.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/bg-line-animation.css" />
+
 
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%7CPlayfair+Display:400,400i,700,700i%7CRoboto:400,400i,500,700" rel="stylesheet">
@@ -42,7 +42,7 @@
 		<nav class="navbar navbar-expand-lg bg-dark shadow-lg">
 			<div class="container">
 				<!-- Logo -->
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="index.html">
 					<!-- Logo -->
 					<img class="navbar-brand-item" src="assets/images/logo.png" alt="Logo">
 				</a>
@@ -55,42 +55,15 @@
 					<ul class="navbar-nav navbar-nav-scroll navbar-nav-scroll ms-auto">
 						<!-- Menu item 1 Demos-->
 						<li class="nav-item">
-							<a class="nav-link" href="#">Events</a>
+							<a class="nav-link" href="timeline.html#currentevent">Events</a>
 						</li>
 						<!-- Menu item 2 Blog-->
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="blogMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-							<ul class="dropdown-menu" aria-labelledby="blogMenu">
-								<li class="dropdown-submenu">
-									<a class="dropdown-item dropdown-toggle" href="#">Blog default</a>
-									<ul class="dropdown-menu">
-										<li> <a class="dropdown-item" href="#">Full Width</a> </li>
-										<li> <a class="dropdown-item" href="#">Left Sidebar</a> </li>
-										<li> <a class="dropdown-item" href="#">Right Sidebar</a> </li>
-									</ul>
-								</li>
-								<li class="dropdown-submenu">
-									<a class="dropdown-item dropdown-toggle" href="#">Blog Grid</a>
-									<ul class="dropdown-menu">
-										<li> <a class="dropdown-item" href="#">Three column</a> </li>
-										<li> <a class="dropdown-item" href="#">Four column</a> </li>
-										<li> <a class="dropdown-item" href="#">Left Sidebar</a> </li>
-										<li> <a class="dropdown-item" href="#">Right Sidebar</a> </li>
-									</ul>
-								</li>
-								<li><a class="dropdown-item" href="#">Blog minimal</a></li>
-								<li class="dropdown-submenu">
-									<a class="dropdown-item dropdown-toggle" href="#">Blog Single</a>
-									<ul class="dropdown-menu">
-										<li> <a class="dropdown-item" href="#">Single classic</a> </li>
-										<li> <a class="dropdown-item" href="#">Single Minimal</a> </li>
-									</ul>
-								</li>
-							</ul>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Blog</a>
 						</li>
 						<!-- Menu item 3 Event Gallery Pages-->
 						<li class="nav-item">
-							<a class="nav-link" href="timeline.html">Event Gallery</a>
+							<a class="nav-link" href="#">Event Gallery</a>
 						</li>
 						<!-- Menu item 4 About Us-->
 						<li class="nav-item">
@@ -114,6 +87,84 @@
 	welcome -->
 	<section>
 		<div class="container">
+			<div class="row my-5">
+				<div class="col-md-12 col-lg-12 text-center">
+					<button id="hippo-hex" style="width:400px;">
+						<svg viewBox="0 0 242 109" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						  <g class="ears">
+						    <g class="ear-left">
+						      <ellipse class="ear-left-outer" transform="matrix(0.9391 -0.3436 0.3436 0.9391 -3.6062 17.8444)" cx="48.5" cy="19.1" rx="11.4" ry="13.8"/>
+						      <ellipse class="ear-left-inner" transform="matrix(0.9391 -0.3436 0.3436 0.9391 -3.8876 17.4659)" cx="47.3" cy="19.7" rx="7.3" ry="11.2"/>
+						    </g>
+						    <g class="ear-right">
+						      <ellipse class="ear-right-outer" transform="matrix(0.3436 -0.9391 0.9391 0.3436 106.5379 189.869)" cx="189.1" cy="18.7" rx="14.4" ry="11.9"/>
+						      <ellipse class="ear-right-inner" transform="matrix(0.3436 -0.9391 0.9391 0.3436 106.8522 191.5127)" cx="190.4" cy="19.3" rx="11.7" ry="7.7"/>
+						    </g>
+						  </g>
+						  <g class="eyes">
+						    <defs>
+						      <clipPath id="eyeRightClip">
+						        <path d="M175,25c0-11-7.8-20-17.5-20S140,14,140,25c0,0.7,0,1.3,0.1,2h34.8 C175,26.3,175,25.7,175,25z"/>
+						      </clipPath>
+						    </defs>
+						    <g class="eye-right">
+						      <path class="eye-right-outer" d="M174.9,27H186c0-0.3,0-0.7,0-1c0-14.4-11.6-26-26-26c-14.4,0-26,11.6-26,26 c0,0.3,0,0.7,0,1h6.1H174.9z"/>
+						      <path class="eye-right-inner" d="M175,25c0-11-7.8-20-17.5-20S140,14,140,25c0,0.7,0,1.3,0.1,2h34.8 C175,26.3,175,25.7,175,25z"/>
+						      <g clip-path="url(#eyeRightClip)">
+						        <circle class="eye-right-pupil" cx="158" cy="18" r="5"/>
+						      </g>
+						    </g>
+						    <defs>
+						      <clipPath id="eyeLeftClip">
+						        <path d="M97,25c0-11-7.8-20-17.5-20S62,14,62,25c0,0.7,0,1.3,0.1,2h34.8C97,26.3,97,25.7,97,25z" />
+						      </clipPath>
+						    </defs>
+						    <g class="eye-left">
+						      <path class="eye-left-outer" d="M96.9,27h6.1c0-0.3,0-0.7,0-1c0-14.4-11.6-26-26-26C62.6,0,51,11.6,51,26 c0,0.3,0,0.7,0,1h11.1H96.9z"/>
+						      <path class="eye-left-inner" d="M97,25c0-11-7.8-20-17.5-20S62,14,62,25c0,0.7,0,1.3,0.1,2h34.8C97,26.3,97,25.7,97,25z" />
+						      <g clip-path="url(#eyeLeftClip)">
+						        <circle class="eye-left-pupil" cx="80" cy="17.7" r="5"/>
+						      </g>
+						    </g>
+						  </g>
+						  <g class="nostrils">
+						    <g class="nostril-right">
+						      <ellipse class="nostril-right-outer" cx="130.5" cy="27.5" rx="6.5" ry="5.5"/>
+						      <circle class="nostril-right-inner" cx="130" cy="28" r="4"/>
+						    </g>
+						    <g class="nostril-left">
+						      <ellipse class="nostril-left-outer" cx="106.5" cy="27.5" rx="6.5" ry="5.5"/>
+						      <circle class="nostril-left-inner" cx="107" cy="28" r="4"/>
+						    </g>
+						  </g>
+						  <path class="body" d="M218,98H24C10.8,98,0,87.2,0,74V51c0-13.2,10.8-24,24-24h194c13.2,0,24,10.8,24,24v23 C242,87.2,231.2,98,218,98z"/>
+						  <g class="freckles">
+						    <circle class="freckle" cx="13.7" cy="41.4" r="1.6"/>
+						    <circle class="freckle" cx="20.1" cy="44.7" r="1.6"/>
+						    <circle class="freckle" cx="19.6" cy="37.8" r="1.6"/>
+						  </g>
+						  <defs>
+						    <clipPath id="mouthClip">
+						      <path d="M218,98H24C10.8,98,0,87.2,0,74V51c0-13.2,10.8-24,24-24h194c13.2,0,24,10.8,24,24v23 C242,87.2,231.2,98,218,98z"/>
+						    </clipPath>
+						  </defs>
+						  <g class="mouth" clip-path="url(#mouthClip)">
+						    <g class="mouth-pieces">
+						      <path class="mouth-back" d="M23.6,168.2l-3-56.1c0-7.8,6.4-14.1,14.1-14.1h172.4c7.8,0,14.1,6.4,14.1,14.1l-3,56.1"/>
+						      <path class="tongue" d="M174.9,168.2c-7.3-5-24.5-9.9-54.8-9.9s-48,5.1-54.8,9.9"/>
+						    </g>
+						  </g>
+						  <g class="teeth">
+						    <path class="tooth-left" d="M115,97.9v7.5c0,2-1.7,3.6-3.6,3.6H89.7c-2,0-3.6-1.7-3.6-3.6v-7.5H115z"/>
+						    <path class="tooth-right" d="M154,97.9v7.5c0,2-1.7,3.6-3.6,3.6h-21.7c-2,0-3.6-1.7-3.6-3.6v-7.5H154z"/>
+						  </g>
+						</svg>
+
+						</button>
+
+						<!-- <a target="_blank" href="https://codepen.io/MarioD/post/c76a53d9652de6ec9bf1217c1bea47e4/interactive-hippo-button-tutorial" class="link">Read / watch the tutorial</a> -->
+				</div>
+			</div>
 			<div class="row text-center text-light">
 				<div class="col-md-12">
 					<h1 class="display-2 fw-bold">Welcome to <span class="text-primary">HEX</span>!!</h1>
@@ -127,7 +178,7 @@
 
 	<!-- =======================
 	about us -->
-	<section class="container pt-5" >
+	<section class="container pt-5 mb-0" >
 		<div class="container">
 			<div class="row justify-content-between align-items-center">
 				<!-- left -->
@@ -154,16 +205,18 @@
 				</div>
 			</div>
 			<!-- row start -->
-			<div class="row mt-3 mt-md-5 pt-5 text-light justify-content-around">
-				<div class="shadow-lg col-sm-12 col-lg-3 mt-5 mt-lg-0 px-5 py-3 rounded-5">
+			<div class="row my-3 mt-md-5 pt-5 text-light justify-content-around">
+				<div class="shadow-lg col-sm-12 col-lg-3 mt-5 mt-lg-0 px-4 py-3 rounded-5">
+
 					<h4 class="mb-2 mt-3">Explore</h4>
 					<p>At Hex Society, we foster exploration, enabling you to discover new technologies, dive into exciting projects, and push the boundaries of your knowledge. With abundant resources and a supportive community, unleash your creativity and explore your passions with us.</p>
 				</div>
-				<div class="shadow-lg col-sm-12 col-lg-3 mt-5 mt-lg-0 px-5 py-3 rounded-5">
+				<div class="shadow-lg col-sm-12 col-lg-3 mt-5 mt-lg-0 px-4 py-3 rounded-5">
 					<h4 class="mb-2 mt-3">Learn</h4>
 					<p>we prioritize continuous education. Through workshops, tutorials, and expert-led sessions, we offer a rich learning environment. Enhance your coding skills, gain valuable insights, and stay current with industry trends. Unlock your potential and acquire new competencies with us.</p>
 				</div>
-				<div class="shadow-lg col-sm-12 col-lg-3 mt-5 mt-lg-0 px-5 py-3 rounded-5">
+				<div class="shadow-lg col-sm-12 col-lg-3 mt-5 mt-lg-0 px-4 py-3 rounded-5">
+
 					<h4 class="mb-2 mt-3">Connect</h4>
 					<p>Engage in discussions, collaborate, and build meaningful relationships with fellow coders and event organizers. Our networking opportunities connect you with professionals, mentors, and potential collaborators. Together, we create lasting memories and achieve great things.</p>
 				</div>
@@ -175,24 +228,8 @@
 	about us -->
 
 	<!-- =======================
-	action box -->
-	<section class="p-0 mt-5 text-light logo-bg.png">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class=" rounded pt-3 all-text-white">
-						<h2 class="alt-font p-sm-5 text-center">"Partnering with 500+ Fortune companies and mid-sized firms across enterprises, experience the best in class, uniquely customized and scalable workforce solutions"</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- =======================
-	action box -->
-
-	<!-- =======================
 	what we offer -->
-	<section class="pt-0 mt-5">
+	<section class="pt-5 mt-5">
 		<div class="container">
 			<div class="row justify-content-between align-items-center">
 				<!-- left -->
@@ -219,7 +256,7 @@
 
 	<!-- =======================
 	blog -->
-	<section class="blog logo-bg.png text-light">
+	<section class="blog logo-bg text-light">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-lg-8 mx-auto">
@@ -322,7 +359,7 @@
 						<div class="widget">
 							<h6>Quick LInks</h6>
 							<ul class="nav flex-column primary-hover">
-								<li class="nav-item"><a class="nav-link" href="#">Event</a></li>
+								<li class="nav-item"><a class="nav-link" href="timeline.html#currentevent">Event</a></li>
 								<li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
 								<li class="nav-item"><a class="nav-link" href="#">Event Gallery</a></li>
 								<li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
@@ -364,6 +401,9 @@
 	<script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
 	<script src="assets/vendor/aos/aos.js"></script>
 	<script src="assets/vendor/ityped/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/gsap.min.js"></script>
+	<script src="assets/vendor/hippo/hippo.js"></script>
+
 
 	<!--Template Functions-->
 	<script src="assets/js/functions.js"></script>
