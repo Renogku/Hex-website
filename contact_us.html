@@ -27,6 +27,9 @@
     <!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%7CPlayfair+Display:400,400i,700,700i%7CRoboto:400,400i,500,700" rel="stylesheet">
 
+	<!--Javascript-->
+	<!--script type="text/javascript" src="contact.js"></script-->
+
 </head>
 
 <body class="bg-dark">
@@ -113,7 +116,7 @@
 
     <!--Form-->
     <div class="container mt-5" id="container1">
-        <form>
+        <form action="contact.php" method="post">
             <h3> Tell us your enquiry.</h3>
             <input type="text" id="firstname" placeholder="First Name:" required>
             <input type="text" id="lastname" placeholder="Last Name:" required>
@@ -123,34 +126,37 @@
             <button type="submit">Done</button>
         </form>
     </div>
+
+	<script src="https://smtpjs.com/v3/smtp.js">
+	</script>
+
     <div class="container mt-5" id="containersm">
         <h4>For more updates follow our Social Media Accounts mentioned below!</h4>
     </div>
     <div class="container mt-1" id="containeri">
 
         <!--linkedin-->
-        <a class="btn btn-primary mt-md-5" style="background-color: #0082ca; margin: 20px; box-shadow: 4px 4px 4px #0F52BA; border: none;" href="#!" role="button">
+        <a class="btn btn-primary mt-md-5" style="background-color: #0082ca; margin: 20px; box-shadow: 4px 4px 4px #0F52BA; border: none;" href="https://www.linkedin.com/company/hexsociety/" role="button">
             <i class="fab fa-linkedin-in me-2"></i>LinkedIn</a>
 
         <!--twitter-->
-        <a class="btn btn-primary mt-md-5" style="background-color: #55acee; margin: 20px; box-shadow: 4px 4px 4px #4682B4; border: none;" href="#!" role="button">
+        <a class="btn btn-primary mt-md-5" style="background-color: #55acee; margin: 20px; box-shadow: 4px 4px 4px #4682B4; border: none;" href="https://twitter.com/HexsocietyCo" role="button">
             <i class="fab fa-twitter me-2"></i>Twitter</a>
             
         <!--instagram-->
-        <a class="btn btn-primary mt-md-5" style="background-color: #ac2bac; margin: 20px; box-shadow: 4px 4px 4px purple; border: none;" href="#!" role="button">
+        <a class="btn btn-primary mt-md-5" style="background-color: #ac2bac; margin: 20px; box-shadow: 4px 4px 4px purple; border: none;" href="https://www.instagram.com/hexsociety.co/" role="button">
             <i class="fab fa-instagram me-2"></i>Instagram</a>
         
         <!--youtube-->
-        <a class="btn btn-primary mt-md-5" style="background-color: #ed302f; margin: 20px; box-shadow: 4px 4px 4px #C41E3A; border: none;" href="#!" role="button">
+        <a class="btn btn-primary mt-md-5" style="background-color: #ed302f; margin: 20px; box-shadow: 4px 4px 4px #C41E3A; border: none;" href="https://www.youtube.com/@hexsocietyorg" role="button">
             <i class="fab fa-youtube me-2"></i>Youtube</a>
 
         <!--github-->
-        <!--youtube-->
-        <a class="btn btn-primary mt-md-5" style="background-color: #fff; margin: 20px; box-shadow: 4px 4px 4px #F3E5AB; border: none;" href="#!" role="button">
+        <a class="btn btn-primary mt-md-5" style="background-color: #fff; margin: 20px; box-shadow: 4px 4px 4px #F3E5AB; border: none;" href="https://github.com/HEXSOCIETY" role="button">
             <i class="fab fa-github me-2"></i>GitHub</a>
         
     </div>
-
+	
     <!-- =======================
 	footer  -->
 	<footer class="footer bg-dark text-light pt-6 ">
