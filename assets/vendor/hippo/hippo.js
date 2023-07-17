@@ -66,5 +66,3 @@
 	  eyeRightPupil.style.transform = `translate(${posX}px, ${posY+12}px)`;
 	}
 
-	// Last minute link to the tutorial
-	button.addEventListener('click', () => window.open('https://codepen.io/MarioD/post/interactive-hippo-button-tutorial'));
